@@ -1,9 +1,11 @@
+import BlackArrow from '.../'
+
 function ToolBar() {
     return (
         <nav className="email-toolbar">
         <ul>
           <li>
-            <img className="icon" src={backArrow} alt="reply button" />
+            <img className="icon" src={src/assets/icons/back-arrow.png} alt="reply button" />
           </li>
           <li>
             <img className="icon" src={downloadButton} alt="archive button" />
